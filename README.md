@@ -1,2 +1,2 @@
 # SI539_portfolio
-checkpoint2
+checkpoint3 Mobile View
