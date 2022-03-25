@@ -46,7 +46,7 @@ div{
 	display: block;
     padding: 10px 10px;
 	margin: 10px 0px;
-	border-radius: 20px;
+	border-radius: 12px;
 	border: 1px solid rgb(26, 26, 83);
 	background-color:#e7f5fd;
 }
@@ -224,7 +224,7 @@ input[type=submit]:hover {
 }
 
 .feedback {
-	border-radius: 5px;
+	border-radius: 12px;
 	background-color: #e7f5fd;
 	padding: 10px 20px;
 	margin: 30px 0px;
@@ -286,6 +286,7 @@ footer{
 	.scenarios_image_3 {
 		grid-column: 3 / 4;
 	}
+
 
 	.galleries_images img:hover{
 		width: 250px;
