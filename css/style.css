@@ -235,6 +235,25 @@ footer{
 	text-align: center;
 }
 
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px grey;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #004E89;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #082f4d;
+	box-shadow:0 0 30px #082f4d, 0 0 30px #082f4d;
+}
+
 @media screen and (min-width: 600px){
 	nav li{
 		width: 20%;
