@@ -8,6 +8,7 @@
 	<link rel="icon" href="images/logo.png">
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css2?family=Sora' rel='stylesheet'> 
 	<title>Home</title>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-G409ZZJFT1"></script>
@@ -16,7 +17,8 @@
   	function gtag(){dataLayer.push(arguments);}
   	gtag('js', new Date());
   	gtag('config', 'G-G409ZZJFT1');
-	</script>	
+	</script>
+	<script src="https://kit.fontawesome.com/db10397208.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,18 +34,54 @@
 				<li><a href = "galleries.html">Galleries</a></li>
 			</ul>
 		</nav>
-		<h1 id="main">Accessibility Design</h1>
+		<!-- <img src="images/hello.jpg" alt="welcome" id = "hello"> -->
+		<div class="hello">
+			<p>HELLO</p>
+		</div>
 	</header>
 
 	<main>
-		<p>"Accessible design is good design - it benefits people who don't have disabilities as well as people who do. Accessibility is all about removing barriers and providing the benefits of technology for everyone." Steve Ballmer, former chief executive of Microsoft.</p>
+		<h1 id="main">Accessibility Design</h1>
+		<div class="intro">
+			<p>“Let’s stop ‘tolerating’ or ‘accepting’ difference, as if we’re so much better for not being different in the first place. Instead, let’s celebrate difference, because in this world it takes a lot of guts to be different.” </br>– Kate Bornstein, author, playwright, performance artist, and gender theorist.</p>
+		</div>
+		<p></br>"Accessible design is good design - it benefits people who don't have disabilities as well as people who do. Accessibility is all about removing barriers and providing the benefits of technology for everyone." Steve Ballmer, former chief executive of Microsoft.</p>
 		<p>Mostly, when it comes to the tech world. People will say “oh yeah, of course accessibility is important; it’s the right thing to do.” However, considering the deadline and budget, the same people will be pulling their hair out saying “look, I’d love to make it work, but given the constraints, we simply can’t accommodate edge cases like accessibility.”</p>
 		<img src = "images/quote_1.png" alt="wisconsin dells" width="25"/>
 		<p>In my opinion, designing with accessibility in mind means being inclusive of everyone. Accessible products are better products for every single user. I'm fascinated with accessibility design, so I wish to use this website to introduce what I learned regarding accessibility design.</p>
-		<img src = "images/recognize_exclusion.png" alt="recognize exclusion" width="25"/>
-		<img src = "images/extend_to_many.png" alt="extend to many" width="25"/>
-		<img src = "images/learn_from_diversity.png" alt="learn from diversity" width="25"/>
+		<div class="scenarios_image">
+			<img class="scenarios_image_1" src = "images/recognize_exclusion.png" alt="recognize exclusion" width="25"/>
+			<img class="scenarios_image_2" src = "images/extend_to_many.png" alt="extend to many" width="25"/>
+			<img class="scenarios_image_3" src = "images/learn_from_diversity.png" alt="learn from diversity" width="25"/>
+		</div>
 	</main>
+
+	<div class="feedback">
+		<form
+		action="https://formspree.io/f/xoqrnqqy"
+		method="POST">
+			<h2>I'd love to hear from you!  <i class="fa-solid fa-bell"></i></h2><br>
+
+			<label for="username">Your Name: </label>
+			<input type="text" name="username" id="username" placeholder="Please enter your name">
+
+			<label for="email">Your Email: </label>
+			<input type="text" name="email" id="email" placeholder="Please enter your email">
+
+			<label for="message">Leave a Message: </label>
+			<textarea type="text" name="message" id="message" placeholder="Please enter your message"></textarea>
+
+			<label for="rate">How do you like the website? </label>
+			<br>
+			<div class="form_rate">
+				<p><i class="fa-solid fa-face-sad-tear"></i> Don't like it</p>
+				<p><i class="fa-solid fa-face-grin-beam"></i> Love it</p>
+			</div>
+        	<input id="rate" name="rate" type="range" min="0" max="5" step="0.5">
+
+			<input type="submit" value = "Click to Submit!">
+		</form>
+	</div>
 
 	<footer>
 		<p>Milly Dai &copy; 2022</p>
